@@ -1,4 +1,4 @@
-const express - require('express');
+const express = require('express');
 const app = express();
 
 
@@ -14,3 +14,4 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, host);
+console.log(`Listening on ${host}:${port}`);
